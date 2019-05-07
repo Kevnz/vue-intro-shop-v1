@@ -1,14 +1,14 @@
 <template>
-<div>
-  <ShoppingCart v-bind:cart="cart" />
-  <div id="app">
+  <div>
+    <ShoppingCart v-bind:cart="cart" />
+    <div id="app">
 
-    <img alt="Vue logo" src="./assets/logo.png">
+      <img alt="Vue logo" src="./assets/logo.png">
 
-    <Welcome msg="The Vue.js Shop"/>
-    <ProductList v-bind:products="products" v-on:add-to-cart="addToCart"></ProductList>
+      <Welcome msg="The Vue.js Shop"/>
+      <ProductList v-bind:products="products" v-on:add-to-cart="addToCart"></ProductList>
+    </div>
   </div>
-</div>
 </template>
 
 <script>
