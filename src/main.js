@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCoffee, faChild, faCircle, faArchive, faCartPlus } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee, faChild, faCircle, faArchive, faCartPlus, faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import { faComment } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from '@fortawesome/vue-fontawesome'
 
@@ -12,6 +12,7 @@ library.add(
   faCircle,
   faArchive,
   faComment,
+  faShoppingCart,
 )
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
