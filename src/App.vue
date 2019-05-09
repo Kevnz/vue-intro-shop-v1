@@ -244,5 +244,13 @@ body {
   color: white;
   padding: 10px;
   display: block;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card a:hover {
+  background: #CCC;
+  border: 0;
+  color: white;
 }
 </style>

@@ -6,18 +6,18 @@
       <p>{{product.description}}</p>
       <a href="#" v-on:click="addToCart(product, $event)">
         {{product.price}}
-        <cart-icon />
+        <font-awesome-icon icon="cart-plus" size="1x" />
       </a>
     </div>
   </div>
 </template>
 
 <script>
-  import CartIcon from './CartIcon.vue'
+
   export default {
     props: ['products'],
     components: {
-      CartIcon
+
     },
     methods: {
       addToCart:function (product, e) {
