@@ -9,7 +9,7 @@
       <ProductList v-bind:products="products" v-on:add-to-cart="addToCart"></ProductList>
     </div>
     <a
-      href="https://github.com/Kevnz/vue-intro-second-products-list"
+      href="https://github.com/Kevnz/vue-intro-shop-v1"
       class="github-corner"
       aria-label="Open GitHub project"
     >
